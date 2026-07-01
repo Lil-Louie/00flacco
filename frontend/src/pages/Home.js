@@ -35,12 +35,13 @@ function Home() {
             </h1>
 
             <h2 className="mt-2 font-bold text-xl text-slate-100">
-              Software Engineer <span className="text-slate-400">| Security Engineer</span>
+              Software Engineer <span className="text-slate-400"/>
             </h2>
 
 
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-sm lg:max-w-md">
-            Pure Mathematics and Computer Science graduate pursuing software and security engineering roles.            </p>
+            New Grad 
+            </p>
           </div>
 
           {/* In-page nav (only on lg+) */}
@@ -161,26 +162,14 @@ function Home() {
           <h2 className="text-3xl font-bold text-slate-100">Projects</h2>
 
           <div className="space-y-10">
+
           <ProjectCard
-              title="Tevent"
-              description="A full-stack event discovery and management app that lets individuals and local businesses create, share, and explore events happening nearby. Authenticated users can create accounts, publish events, view attendance, and see event locations on an interactive map. Built with React, Node.js, MongoDB, Auth0, JWT, a calendar interface, and Google Maps."
-              link="https://github.com/Lil-Louie/Tevent"
-              tech={["React", "Node.js", "ScheduleX", "Auth0", "MongoDB"]}
-            />
-
-            <ProjectCard
-              title="GameUP"
-              description="A full-stack pickup game discovery platform that lets users explore, create, and join local games ranging from sports to video games. Features authenticated user accounts, event creation and management, attendance visibility, and dedicated explore and profile pages. Built with React, Node.js, MySQL, Railway, Koa, and Tailwind CSS."
-              link="https://github.com/Lil-Louie/GameUP"
-              tech={["React", "Tailwind", "Node.js", "Koa", "MySQL"]}
-            />
-
-            <ProjectCard
               title="Solano Solar Cleaning"
               description="A modern, SEO-optimized website for a solar panel cleaning business. Designed and built from the ground up with a clean responsive layout and fast-loading static deployment."
               link="https://solanosolarcleaning.com"
               tech={["HTML", "CSS", "JavaScript", "Node.js", "SEO"]}
             />
+
           </div>
         </section>
 
